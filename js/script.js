@@ -26,11 +26,7 @@ const tooltip = new Tooltip('[data-tooltip]')
 tooltip.init()
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]')
 const dropdownMenu = new DropDownMenu('[data-dropdown]')
-const menuMobile = new MenuMobile(
-  '[data-menu="button"]',
-  '[data-menu="lista"]',
-  ['click']
-)
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="lista"]')
 const funcionamento = new Funcionamento('[data-semana]', 'aberto')
 const slide = new SlideNav('.slide', '.slide-wrapper')
 
