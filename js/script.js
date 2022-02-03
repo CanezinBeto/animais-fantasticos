@@ -9,6 +9,7 @@ import MenuMobile from './modules/menu-mobile.js'
 import Funcionamento from './modules/funcionamento.js'
 import fetchAnimais from './modules/fetch-animais.js'
 import fetchBitcoin from './modules/fetch-bitcoin.js'
+import SlideNav from './modules/slide.js'
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]')
 const accordion = new Accordion('[data-anime="accordion"] dt')
@@ -31,8 +32,11 @@ const menuMobile = new MenuMobile(
   ['click']
 )
 const funcionamento = new Funcionamento('[data-semana]', 'aberto')
-funcionamento.init()
+const slide = new SlideNav('.slide', '.slide-wrapper')
 
+slide.init()
+slide.addControl('.custom-control')
+funcionamento.init()
 menuMobile.init()
 scrollAnima.init()
 tabNav.init()
