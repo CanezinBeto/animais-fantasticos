@@ -7,7 +7,7 @@ Este projeto foi desenvolvido durante meu aprendizado no curso de JavaScript ES6
 - É totalmente responsivo
 - Foi utilizado diversas técnicas com JavaScript
 
-## Técnologias Utilizadas
+## Tecnologias Utilizadas
 
 - JavaScript
 - WebPack
