@@ -53,7 +53,7 @@ Este projeto foi desenvolvido durante meu aprendizado no curso de JavaScript ES6
 $ git clone git@github.com:CanezinBeto/animais-fantasticos.git
 
 # Instalar as dependências
-npm init
+npm install
 
 # Abrir com o Vscode e visualizar com o liveServer
 ```
